@@ -1,0 +1,30 @@
+{
+    "boxShadow": "none",
+    "widgetName": "Button2",
+    "onClick": "{{ create_zoom_meeting.run(() => add_event.run(() => list_events.run(() => { closeModal(\"Modal1\"); navigateTo(\"Meeting Details\", { eventId: add_event.data.id }) } )))}}",
+    "dynamicPropertyPathList": [
+        {"key": "onClick"},
+        {"key": "isDisabled"}
+    ],
+    "buttonColor": "#03B365",
+    "topRow": 52,
+    "bottomRow": 56,
+    "type": "BUTTON_WIDGET",
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 44,
+    "dynamicBindingPathList": [{"key": "isDisabled"}],
+    "googleRecaptchaKey": "",
+    "text": "Confirm",
+    "isDisabled": "{{!emailInput.isValid}}",
+    "labelTextSize": "0.875rem",
+    "rightColumn": 64,
+    "isDefaultClickDisabled": true,
+    "widgetId": "jc9eq60y61",
+    "isVisible": true,
+    "version": 1,
+    "recaptchaType": "V3",
+    "parentId": "q50gzqfojb",
+    "isLoading": false,
+    "borderRadius": "0px",
+    "buttonVariant": "PRIMARY"
+}

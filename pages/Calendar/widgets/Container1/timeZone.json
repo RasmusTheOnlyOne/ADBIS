@@ -1,0 +1,33 @@
+{
+    "boxShadow": "none",
+    "widgetName": "timeZone",
+    "isFilterable": true,
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "topRow": 24,
+    "bottomRow": 28,
+    "parentRowSpace": 40,
+    "type": "DROP_DOWN_WIDGET",
+    "defaultOptionValue": "{{moment.tz.guess()}}",
+    "parentColumnSpace": 74,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 42,
+    "dynamicBindingPathList": [
+        {"key": "options"},
+        {"key": "defaultOptionValue"},
+        {"key": "isVisible"},
+        {"key": "accentColor"}
+    ],
+    "options": "{{moment.tz.names().map((timezone) => { return {label: timezone, value: timezone }})}}",
+    "isDisabled": false,
+    "labelTextSize": "0.875rem",
+    "isRequired": false,
+    "rightColumn": 64,
+    "widgetId": "zhdqjc7m4n",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": "{{appsmith.user.email === \"nikhil@appsmith.com\"}}",
+    "label": "",
+    "version": 1,
+    "parentId": "89bt22aobo",
+    "isLoading": false,
+    "borderRadius": "0px"
+}

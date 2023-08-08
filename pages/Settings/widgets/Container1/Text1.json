@@ -1,0 +1,21 @@
+{
+    "widgetName": "Text1",
+    "rightColumn": 23,
+    "textAlign": "LEFT",
+    "widgetId": "y6rik9zgy7",
+    "topRow": 0,
+    "bottomRow": 4,
+    "parentRowSpace": 40,
+    "isVisible": true,
+    "type": "TEXT_WIDGET",
+    "fontStyle": "BOLD",
+    "version": 1,
+    "textColor": "#231F20",
+    "parentId": "g315vl9nbp",
+    "isLoading": false,
+    "parentColumnSpace": 74,
+    "leftColumn": 0,
+    "dynamicBindingPathList": [],
+    "fontSize": "HEADING1",
+    "text": "Settings"
+}

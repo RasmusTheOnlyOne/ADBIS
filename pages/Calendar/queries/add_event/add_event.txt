@@ -1,0 +1,12 @@
+{
+	"start": {
+		"dateTime": "{{moment.tz(DatePicker1.selectedDate+" "+Table1.selectedRow.slot.split(" - ")[0], "DD/MM/YYYY HH:mm", timeZone.selectedOptionValue).toISOString()}}"
+	},
+	"end": {
+		"dateTime": "{{moment.tz(DatePicker1.selectedDate+" "+Table1.selectedRow.slot.split(" - ")[1], "DD/MM/YYYY HH:mm", timeZone.selectedOptionValue).toISOString()}}"
+	},
+	"description": {{JSON.stringify((purposeInput.text || "") + "\\n Zoom Link: " + create_zoom_meeting.data.join_url + "\\n Cancel Meeting: https://app.appsmith.com/applications/600186605b452f525458d6d2/pages/6038ff6f6063c756224afa7d?eventId=" + create_zoom_meeting.data.id)}},
+	"summary": "{{nameInput.text + " Meeting with Nikhil"}}",
+	"attendees": [{ "email": "Nikhil@appsmith.com" }, { "email": "{{emailInput.text.trim()}}" }],
+	"id": "{{create_zoom_meeting.data.id}}"
+}

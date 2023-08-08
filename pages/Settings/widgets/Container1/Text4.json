@@ -1,0 +1,21 @@
+{
+    "widgetName": "Text4",
+    "rightColumn": 12,
+    "textAlign": "LEFT",
+    "widgetId": "xmdqeg9io4",
+    "topRow": 20,
+    "bottomRow": 24,
+    "parentRowSpace": 40,
+    "isVisible": true,
+    "type": "TEXT_WIDGET",
+    "fontStyle": "BOLD",
+    "version": 1,
+    "textColor": "#231F20",
+    "parentId": "g315vl9nbp",
+    "isLoading": false,
+    "parentColumnSpace": 34.5,
+    "leftColumn": 0,
+    "dynamicBindingPathList": [],
+    "fontSize": "PARAGRAPH",
+    "text": "Zoom Token"
+}

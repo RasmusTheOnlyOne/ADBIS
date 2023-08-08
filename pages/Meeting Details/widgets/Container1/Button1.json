@@ -1,0 +1,31 @@
+{
+    "boxShadow": "none",
+    "widgetName": "Button1",
+    "onClick": "{{fetch_event.data.status === \"cancelled\" ? navigateTo(\"Calendar\") : showModal(\"Modal1\") }}",
+    "dynamicPropertyPathList": [
+        {"key": "isVisible"},
+        {"key": "onClick"}
+    ],
+    "buttonColor": "#03B365",
+    "topRow": 32,
+    "bottomRow": 36,
+    "parentRowSpace": 40,
+    "type": "BUTTON_WIDGET",
+    "parentColumnSpace": 43.75,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 8,
+    "dynamicBindingPathList": [{"key": "text"}],
+    "text": "{{fetch_event.data.status === \"cancelled\" ? \"Reschedule Meeting\" : \"Cancel Meeting\"}}",
+    "isDisabled": false,
+    "labelTextSize": "0.875rem",
+    "rightColumn": 56,
+    "isDefaultClickDisabled": true,
+    "widgetId": "9xp8rmu9af",
+    "isVisible": "true",
+    "version": 1,
+    "recaptchaType": "V3",
+    "parentId": "i1773na87x",
+    "isLoading": false,
+    "borderRadius": "0px",
+    "buttonVariant": "PRIMARY"
+}

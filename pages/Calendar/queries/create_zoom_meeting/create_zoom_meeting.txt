@@ -1,0 +1,10 @@
+{
+  "topic": "{{nameInput.text + "<> Nikhil"}}",
+  "type": 2,
+  "start_time": "{{moment(DatePicker1.selectedDate+" "+Table1.selectedRow.slot.split(" - ")[0], "DD/MM/YYYY HH:mm").format("yyyy-MM-DDTHH:mm:ss")}}",
+  "duration": {{durationDropdown.selectedOptionValue}},
+  "timezone": "{{timeZone.selectedOptionValue}}",
+  "settings": {
+    "registrants_email_notification": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "isRequired": false,
+    "widgetName": "Input2",
+    "rightColumn": 56,
+    "widgetId": "fvolqe1bbw",
+    "topRow": 12,
+    "bottomRow": 16,
+    "parentRowSpace": 40,
+    "isVisible": true,
+    "label": "",
+    "type": "INPUT_WIDGET",
+    "version": 1,
+    "parentId": "g315vl9nbp",
+    "isLoading": false,
+    "parentColumnSpace": 34.5,
+    "resetOnSubmit": false,
+    "leftColumn": 40,
+    "dynamicBindingPathList": [],
+    "inputType": "NUMBER",
+    "defaultText": "20",
+    "isDisabled": false,
+    "validation": "true"
+}

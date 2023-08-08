@@ -1,0 +1,21 @@
+{
+    "widgetName": "Text2",
+    "rightColumn": 12,
+    "textAlign": "LEFT",
+    "widgetId": "hejakymbe5",
+    "topRow": 12,
+    "bottomRow": 16,
+    "parentRowSpace": 40,
+    "isVisible": true,
+    "type": "TEXT_WIDGET",
+    "fontStyle": "BOLD",
+    "version": 1,
+    "textColor": "#231F20",
+    "parentId": "g315vl9nbp",
+    "isLoading": false,
+    "parentColumnSpace": 34.5,
+    "leftColumn": 0,
+    "dynamicBindingPathList": [],
+    "fontSize": "PARAGRAPH",
+    "text": "Office Hours"
+}

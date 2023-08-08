@@ -1,0 +1,57 @@
+{
+  "unpublishedPage": {
+    "name": "Calendar",
+    "slug": "calendar",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 450,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 890,
+          "containerStyle": "none",
+          "snapRows": 108,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 83,
+          "minHeight": 1030,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Calendar_list_events",
+              "name": "list_events",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "moment(DatePicker1.selectedDate, \"DD/MM/YYYY\").add(1,\"day\").format(\"YYYY-MM-DDT00:mm:ssZ\")",
+                "moment(DatePicker1.selectedDate, \"DD/MM/YYYY\").format(\"YYYY-MM-DDT00:mm:ssZ\")"
+              ],
+              "timeoutInMillisecond": 60000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Calendar",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "64c83aaac43e87633da75e0d_64c83aaac43e87633da75e10"
+}

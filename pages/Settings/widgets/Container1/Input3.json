@@ -1,0 +1,22 @@
+{
+    "isRequired": false,
+    "widgetName": "Input3",
+    "rightColumn": 56,
+    "widgetId": "xznlzas3dr",
+    "topRow": 20,
+    "bottomRow": 24,
+    "parentRowSpace": 40,
+    "isVisible": true,
+    "label": "",
+    "type": "INPUT_WIDGET",
+    "version": 1,
+    "parentId": "g315vl9nbp",
+    "isLoading": false,
+    "parentColumnSpace": 34.5,
+    "resetOnSubmit": false,
+    "leftColumn": 12,
+    "dynamicBindingPathList": [],
+    "inputType": "TEXT",
+    "isDisabled": false,
+    "validation": "true"
+}
